@@ -1,34 +1,28 @@
-# ai-file-organizer
-Automatically organize messy folders using local AI (offline, no cloud)
+# Foldora AI — file organizer for Windows and macOS
 
-# Foldora – AI File Organizer for Windows & macOS
+Foldora is a proprietary desktop application from Computora AI. It analyzes supported files locally and proposes folders and clearer names for a selected folder. You review the plan before applying changes. It is a paid product, not an open-source application.
 
-Foldora is an **AI file organizer** that automatically cleans messy folders such as Downloads, Documents, and Desktop.
+- **Official website, current product information and pricing:** https://foldoraai.com/
+- **GitHub Pages address:** https://foldora-ai.github.io/
+- **Current buying guide:** https://foldoraai.com/ai-file-organizer/
+- **Historical GitHub Pages guide address:** https://foldora-ai.github.io/ai-file-organizer/
 
-Instead of manually sorting files, Foldora analyzes filenames and content locally and organizes them into structured directories.
+The GitHub Pages homepage and guide addresses currently redirect to the corresponding `foldoraai.com` pages. They are retained here for provenance and existing links.
 
-## Features
+## What it does
 
-- Automatic file organization
-- AI-based file categorization
-- Works completely offline
-- No cloud uploads
-- Keeps files private
+1. Select a folder on Windows 10/11 or macOS.
+2. Foldora analyzes filenames and available content from supported files on your device.
+3. Review proposed folders and filenames before approving the changes.
 
-## Use Case
+Content analysis varies by format. See the [supported file types and limits](https://foldoraai.com/docs/supported-file-types/) before using it on a large or unusual collection. Review uncertain suggestions and keep a backup before large changes; a guaranteed one-click undo is not advertised.
 
-Over time folders like Downloads become messy with PDFs, installers, images, and documents.
+## Internet and license requirements
 
-Foldora scans the folder and automatically creates a clean structure for your files.
+The file analysis and organization workflow uses local processing and does not require uploading your files to a cloud organizer. Purchase, download, license activation and periodic license validation require internet access. Foldora requires a valid paid license; see the [official website](https://foldoraai.com/) for the current offer and delivery details.
 
-## Website
+## Releases
 
-https://foldora-ai.github.io
-
-## Learn More
-
-Read how Foldora works as an AI file organizer:
-
-https://foldora-ai.github.io/ai-file-organizer
+The [public release repository](https://github.com/foldora-ai/foldora-releases) holds versioned installer artifacts. It does not contain Foldora's application source code.
 
 ![Foldora demo](https://github.com/foldora-ai/foldora-ai.github.io/blob/main/src/assets/foldora-demo.gif)
